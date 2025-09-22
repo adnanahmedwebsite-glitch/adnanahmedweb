@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adnan Ahmed - Veterinarian Portfolio</title>
+    <!-- Tailwind CSS from CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7fafc;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <!-- Hero Section -->
+    <header class="bg-indigo-600 text-white py-16 md:py-24 text-center rounded-b-3xl shadow-xl">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col items-center">
+                <!-- Profile Image Placeholder -->
+                <div class="w-32 h-32 md:w-48 md:h-48 rounded-full overflow-hidden mb-6 border-4 border-white shadow-lg">
+                    <img src="https://placehold.co/500x500/A5B4FC/ffffff?text=Adnan" alt="Adnan Ahmed" class="object-cover w-full h-full">
+                </div>
+                <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-2">Dr. Adnan Ahmed</h1>
+                <p class="text-xl sm:text-2xl font-light">Veterinarian & Animal Health Consultant</p>
+                <p class="mt-4 text-sm md:text-base max-w-2xl mx-auto opacity-80">
+                    A dedicated and compassionate veterinarian specializing in pet, poultry, and cattle health. Committed to providing the highest standard of care and education.
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-12 md:py-20">
+
+        <!-- Navigation Menu -->
+        <nav class="sticky top-0 bg-white shadow-lg rounded-full px-6 py-3 -mt-8 mb-12 hidden md:flex justify-center items-center space-x-8 z-10">
+            <a href="#about" class="text-indigo-600 hover:text-indigo-800 font-semibold transition-colors duration-300">About</a>
+            <a href="#services" class="text-gray-600 hover:text-indigo-800 transition-colors duration-300">Services</a>
+            <a href="#education" class="text-gray-600 hover:text-indigo-800 transition-colors duration-300">Education</a>
+            <a href="#contact" class="bg-indigo-500 text-white px-6 py-2 rounded-full hover:bg-indigo-600 transition-colors duration-300">Contact</a>
+        </nav>
+
+        <!-- About Me Section -->
+        <section id="about" class="bg-white p-8 md:p-12 rounded-2xl shadow-lg mb-12 md:mb-20">
+            <h2 class="text-2xl md:text-3xl font-bold mb-4 text-indigo-700">About Dr. Adnan Ahmed</h2>
+            <p class="mb-4">
+                Dr. Adnan Ahmed is a highly-skilled veterinarian with a passion for animal welfare. Graduating with honors from **Sher-e-Bangla Agricultural University**, he has a broad range of experience in both small and large animal practice.
+            </p>
+            <p>
+                His expertise spans from providing routine pet wellness checks and vaccinations to managing complex health issues in livestock and poultry. Driven by a commitment to the well-being of all animals, he combines evidence-based medicine with a compassionate approach.
+            </p>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="mb-12 md:mb-20">
+            <h2 class="text-2xl md:text-3xl font-bold text-center mb-8 text-indigo-700">My Expertise & Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+                <!-- Card 1: Pet Health -->
+                <div class="bg-white p-6 rounded-2xl shadow-lg flex flex-col items-center text-center transition-transform hover:scale-105 duration-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-indigo-500 mb-4" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M10 2a4 4 0 00-4 4v4a4 4 0 004 4 4 4 0 004-4V6a4 4 0 00-4-4zm0 14a6 6 0 01-6-6v-4a6 6 0 0112 0v4a6 6 0 01-6 6zM5 9a1 1 0 011-1h1a1 1 0 011 1v1a1 1 0 01-1 1H6a1 1 0 01-1-1V9zM12 9a1 1 0 011-1h1a1 1 0 011 1v1a1 1 0 01-1 1h-1a1 1 0 01-1-1V9z" />
+                    </svg>
+                    <h3 class="text-xl font-semibold mb-2">Pet Care</h3>
+                    <p class="text-sm text-gray-600">
+                        Routine check-ups, vaccinations, parasite control, and emergency care for pets including dogs, cats, and birds.
+                    </p>
+                </div>
+
+                <!-- Card 2: Cattle Health -->
+                <div class="bg-white p-6 rounded-2xl shadow-lg flex flex-col items-center text-center transition-transform hover:scale-105 duration-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-indigo-500 mb-4" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M10 2a8 8 0 100 16 8 8 0 000-16zM8 9a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 01-1 1H9a1 1 0 01-1-1V9z" />
+                    </svg>
+                    <h3 class="text-xl font-semibold mb-2">Cattle Management</h3>
+                    <p class="text-sm text-gray-600">
+                        Herd health management, disease prevention, reproductive services, and nutritional counseling for cattle and other livestock.
+                    </p>
+                </div>
+
+                <!-- Card 3: Consultancy -->
+                <div class="bg-white p-6 rounded-2xl shadow-lg flex flex-col items-center text-center transition-transform hover:scale-105 duration-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-indigo-500 mb-4" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M7 3a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 01-1 1h-2a1 1 0 01-1-1V3zM3 13a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1v-2zM13 13a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 01-1 1h-2a1 1 0 01-1-1v-2zM4 6h12v7a1 1 0 01-1 1h-1a1 1 0 01-1-1v-1a1 1 0 00-1-1H9a1 1 0 00-1 1v1a1 1 0 01-1 1H5a1 1 0 01-1-1V6z" />
+                    </svg>
+                    <h3 class="text-xl font-semibold mb-2">Veterinary Consultancy</h3>
+                    <p class="text-sm text-gray-600">
+                        Expert advice on farm management, public health, biosecurity, and the latest trends in veterinary science.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="bg-white p-8 md:p-12 rounded-2xl shadow-lg mb-12 md:mb-20">
+            <h2 class="text-2xl md:text-3xl font-bold mb-4 text-indigo-700">Education</h2>
+            <div class="flex items-start">
+                <div class="mr-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-indigo-500" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M10 2a8 8 0 100 16 8 8 0 000-16zM8 9a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 01-1 1h-2a1 1 0 01-1-1V9z" />
+                    </svg>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold">Doctor of Veterinary Medicine (DVM)</h3>
+                    <p class="text-gray-600">Sher-e-Bangla Agricultural University</p>
+                    <p class="text-sm text-gray-500 mt-1">201X - 201Y</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="bg-indigo-50 p-8 md:p-12 rounded-2xl shadow-lg">
+            <h2 class="text-2xl md:text-3xl font-bold mb-8 text-center text-indigo-700">Get in Touch</h2>
+            <div class="max-w-xl mx-auto">
+                <form class="space-y-6">
+                    <div>
+                        <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+                        <input type="text" id="name" name="name" class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-gray-700">Email Address</label>
+                        <input type="email" id="email" name="email" class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+                    </div>
+                    <div>
+                        <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                        <textarea id="message" name="message" rows="4" class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="w-full md:w-auto px-8 py-3 bg-indigo-600 text-white font-semibold rounded-full hover:bg-indigo-700 transition-colors duration-300 shadow-md">
+                            Send Message
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8 mt-12 text-center rounded-t-3xl">
+        <div class="container mx-auto px-4">
+            <p>&copy; 2024 Dr. Adnan Ahmed. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for smooth scrolling -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const links = document.querySelectorAll('a[href^="#"]');
+            links.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 70, // Adjust for sticky nav
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
